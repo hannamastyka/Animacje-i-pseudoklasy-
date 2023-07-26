@@ -1,28 +1,29 @@
 .container {
-  width: 96%;
+  width: 94%;
 }
 .btn {
   width: 100%;
-  background-color: aquamarine;
-  color: black;
+  background-color: #24ad98;
+  color: white;
   padding: 20px 40px;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 94%;
-  }
+  font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    width: 640px;
-  }
-  .btn {
-    width: auto;
-  }
+.btn:hover {
+  background-color: white;
+  color: #24ad98;
 }
+
 @media screen and (min-width: 1024px) {
   .container {
     width: 960px;
+  }
+
+  .btn {
+    width: auto;
+  }
+
+  .box:hover {
+    background-color: #ffcccc;
   }
 }
